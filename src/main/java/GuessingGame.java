@@ -1,3 +1,6 @@
+/**
+ * Game Dynamics
+ **/
 public class GuessingGame {
     public static void main(String[] args) {
 
@@ -5,7 +8,6 @@ public class GuessingGame {
 
         String itemName = prompter.askForItemName();
         int maxNumberOfItems = prompter.askForMaxNumberOfItems(itemName);
-//        String name = prompter.askForUsername();
 
         Jar jar = new Jar(itemName, maxNumberOfItems);
 

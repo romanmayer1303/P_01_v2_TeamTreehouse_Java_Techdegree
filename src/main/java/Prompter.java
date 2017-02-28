@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created by romanmayer on 20/02/17.
+ * Input / Output
  */
 public class Prompter {
 
@@ -17,24 +17,18 @@ public class Prompter {
         } catch (IOException ioe) {
             System.out.println(ioe.getMessage());
         } catch (NumberFormatException nfe) {
-
+            System.out.println(nfe.getMessage());
         }
-
-        System.out.println();
         return guess;
     }
 
     public void printResult(int counter) {
-        if (counter == 1) {
-            System.out.printf("%s attempt%n", counter);
-        } else {
-            System.out.printf("%s attempts%n", counter);
-        }
+            System.out.printf("You got it in %s attempt(s).%n", counter);
     }
 
     public String askForItemName() {
         try {
-            System.out.println("What type of item");
+            System.out.println("What type of item?");
             String itemName = br.readLine().replaceAll("\\s", "");
             return itemName;
         } catch (IOException ioe) {
@@ -46,7 +40,7 @@ public class Prompter {
     public int askForMaxNumberOfItems(String itemName) {
         int maxNumberOfItems = -5;
         try {
-            System.out.printf("maximum amount of %s%n", itemName);
+            System.out.printf("What is the maximum amount of %s?%n", itemName);
             maxNumberOfItems = Integer.parseInt(br.readLine().replaceAll("\\s", ""));
         } catch (IOException ioe) {
             System.out.println(ioe.getMessage());
@@ -55,14 +49,14 @@ public class Prompter {
     }
 
     public void promptToStartTheGame(String itemName, int maxNumberOfItems) {
-        System.out.printf("How many %s%n", itemName);
+        System.out.printf("How many %s are in the jar?%n", itemName);
         if (maxNumberOfItems > 1) {
-            System.out.printf("between 1 and %s%n", maxNumberOfItems);
+            System.out.printf("Pick a number between 1 and %s.%n", maxNumberOfItems);
         }
     }
 
     public void outOfRange(int maxNumberOfItems) {
-        System.out.printf("Your guess must be less than %s.%n", maxNumberOfItems);
+        System.out.printf("Your guess must be between 1 and %s.%n", maxNumberOfItems);
     }
 
     public void guessIsTooLow() {
@@ -71,17 +65,6 @@ public class Prompter {
 
     public void guessIsTooHigh() {
         System.out.println("Your guess is too high.");
-    }
-
-    public String askForUsername() {
-        try {
-            System.out.println("name");
-            String username = br.readLine().replaceAll("\\s", "");
-            return username;
-        } catch (IOException ioe) {
-            System.out.println(ioe.getMessage());
-        }
-        return null;
     }
 }
 

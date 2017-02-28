@@ -1,26 +1,18 @@
 import java.util.Random;
 
 /**
- * Created by romanmayer on 20/02/17.
+ * Jar Model
  */
 public class Jar {
 
-    private String ITEM_NAME;
-    private int MAX_NUMBER_OF_ITEMS;
-    private int NUMBER_OF_ITEMS;
+    private final String ITEM_NAME;
+    private final int MAX_NUMBER_OF_ITEMS;
+    private final int NUMBER_OF_ITEMS;
 
     public Jar(String itemName, int maxNumberOfItems) {
         this.ITEM_NAME = itemName;
         this.MAX_NUMBER_OF_ITEMS = maxNumberOfItems;
         this.NUMBER_OF_ITEMS = getRandomNumber(maxNumberOfItems);
-    }
-
-    public String getItemName() {
-        return ITEM_NAME;
-    }
-
-    public int getMaxNumberOfItems() {
-        return MAX_NUMBER_OF_ITEMS;
     }
 
     public int getNumberOfItems() {
