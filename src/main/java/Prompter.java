@@ -23,7 +23,11 @@ public class Prompter {
     }
 
     public void printResult(int counter) {
-            System.out.printf("You got it in %s attempt(s).%n", counter);
+        if (counter == 1) {
+            System.out.printf("%s attempt%n", counter);
+        } else {
+            System.out.printf("%s attempts%n", counter);
+        }
     }
 
     public String askForItemName() {

@@ -105,8 +105,8 @@
       <file leaf-file-name="GuessingGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GuessingGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="145">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,16 +144,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prompter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Prompter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Prompter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#promptForGuess#0;class#Prompter#0" expanded="false" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
                 <element signature="method#askForItemName#0;class#Prompter#0" expanded="false" />
                 <element signature="method#askForMaxNumberOfItems#0;class#Prompter#0" expanded="false" />
                 <element signature="method#promptToStartTheGame#0;class#Prompter#0" expanded="false" />
@@ -173,7 +171,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -506,8 +504,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/treehouse.properties" />
         <option value="$PROJECT_DIR$/src/main/java/GuessingGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/Jar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Prompter.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/Prompter.java" />
       </list>
     </option>
   </component>
@@ -527,7 +525,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="878" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -605,6 +603,28 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project_01_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project_01_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -625,7 +645,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessingGame">
+  <component name="RunManager" selected="Gradle.Project_01_v2 [test]">
     <configuration default="false" name="Project_01_v2 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1120,7 +1140,7 @@
       <workItem from="1487765551071" duration="1078000" />
       <workItem from="1488194010227" duration="944000" />
       <workItem from="1488234748359" duration="9000" />
-      <workItem from="1488234771345" duration="4665000" />
+      <workItem from="1488234771345" duration="5197000" />
     </task>
     <servers />
   </component>
@@ -1143,13 +1163,19 @@
     <history-entry file="Project_01_v2_[test] - 2017.02.28 at 16h 51m 51s.xml">
       <configuration name="Project_01_v2 [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="Project_01_v2_[test] - 2017.02.28 at 17h 48m 36s.xml">
+      <configuration name="Project_01_v2 [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Project_01_v2_[test] - 2017.02.28 at 17h 50m 30s.xml">
+      <configuration name="Project_01_v2 [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6696000" />
+    <option name="totallyTimeSpent" value="7228000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1158,7 +1184,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37330037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37515527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1234,8 +1260,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#promptForGuess#0;class#Prompter#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
             <element signature="method#askForItemName#0;class#Prompter#0" expanded="false" />
             <element signature="method#askForMaxNumberOfItems#0;class#Prompter#0" expanded="false" />
             <element signature="method#promptToStartTheGame#0;class#Prompter#0" expanded="false" />
@@ -1285,8 +1309,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#promptForGuess#0;class#Prompter#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
             <element signature="method#askForItemName#0;class#Prompter#0" expanded="false" />
             <element signature="method#askForMaxNumberOfItems#0;class#Prompter#0" expanded="false" />
             <element signature="method#promptToStartTheGame#0;class#Prompter#0" expanded="false" />
@@ -1336,8 +1358,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#promptForGuess#0;class#Prompter#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
             <element signature="method#askForItemName#0;class#Prompter#0" expanded="false" />
             <element signature="method#askForMaxNumberOfItems#0;class#Prompter#0" expanded="false" />
             <element signature="method#promptToStartTheGame#0;class#Prompter#0" expanded="false" />
@@ -1420,41 +1440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Jar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="method#getRandomNumber#0;class#Jar#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GuessingGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Prompter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#promptForGuess#0;class#Prompter#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="method#askForItemName#0;class#Prompter#0" expanded="false" />
-            <element signature="method#askForMaxNumberOfItems#0;class#Prompter#0" expanded="false" />
-            <element signature="method#promptToStartTheGame#0;class#Prompter#0" expanded="false" />
-            <element signature="method#outOfRange#0;class#Prompter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prescriptive.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1468,6 +1453,39 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Jar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="method#getRandomNumber#0;class#Jar#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GuessingGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Prompter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#promptForGuess#0;class#Prompter#0" expanded="false" />
+            <element signature="method#askForItemName#0;class#Prompter#0" expanded="false" />
+            <element signature="method#askForMaxNumberOfItems#0;class#Prompter#0" expanded="false" />
+            <element signature="method#promptToStartTheGame#0;class#Prompter#0" expanded="false" />
+            <element signature="method#outOfRange#0;class#Prompter#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
